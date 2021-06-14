@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+
+}
+.bg{
+    background-image: url('./J.png');
+    position: absolute;
+    top: -30;
+    left: -30;
+    width:calc(100vw + 60px);
+    height:calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+    background-size: cover;
+
+}
+.loading-text{
+    font-size: 50px;
+    color: white;
+}
