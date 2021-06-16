@@ -17,12 +17,14 @@ body{
     width: 50%;
     height: 100%;
     overflow: hidden;
+    transition: flex 0.7s ease-in;
 }
 .split.left{
     left: 0;
-    background-image: url('./1.jpeg');
+    background-image: url('./M.png');
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .split.left::before{
   position: absolute;
@@ -46,7 +48,12 @@ body{
     background-color: rgba(43, 43, 43, 0.7);
   
   }
-
+.split.left,
+.split.right,
+.split.left::before,
+.split.split.right::before{
+  transition: all 1s ease-in-out;
+}
   h1{
       position: absolute;
       font-size: 4rem;
@@ -78,10 +85,12 @@ body{
   .hover-left .left{
 
     width: 75%;
+
   }
   .hover-left .right{
 
     width: 25%;
+    transition: flex 0.7s ease-in;
   }
 
   .hover-right .right{
