@@ -99,7 +99,7 @@ function fun(keycod){
        },500)
       break;
       case 74:
-        case 105:
+        case 106:
       beep.src = "openhat.wav";
       beep.play();
       var j = document.getElementById('j');
@@ -109,7 +109,7 @@ function fun(keycod){
        },500)
       break;
       case 75:
-        case 106:
+        case 107:
         beep.src = "ride.wav";
         beep.play();
         var k = document.getElementById('k');
