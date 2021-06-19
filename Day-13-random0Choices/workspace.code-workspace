@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\Day-12-FAQ"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Day-11-find-keycodes"
+	}
+}
